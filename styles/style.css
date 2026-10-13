@@ -21,7 +21,7 @@ html {
   block-size: 100%;
 
 }
-.content{
+.content {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -55,7 +55,7 @@ html {
   height: 386px;
   margin-bottom: 16px;
 }
-.result__video{
+.result__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -94,33 +94,33 @@ font-family: Oswald;
 font-weight: 700;
 font-size: 75px;
 line-height: 94%;
-text-transform: uppercase;
 letter-spacing: 0;
+text-transform: uppercase;
 
 }
 .content__accent {
-  color: #545050;
+color: #545050;
 
 }
-.content__card-link{
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+.content__card-link {
+display: block;
+color: inherit;
+text-decoration: none;
+cursor: pointer;
 }
 .content__card-link_current {
   background-color: #545050;
 }
-.content__video-card-title{
+.content__video-card-title {
   overflow: hidden;
   color: #fff;
   font-family:"Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  text-overflow: ellipsis;  
-  white-space: nowrap;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .content__video-card-description {
 display: -webkit-box;
@@ -171,13 +171,13 @@ width: fit-content;
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  line-height: 100%;
   background-color: transparent;
   appearance: none;
-  line-height: 100%
 }
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 70%);
-  }
+}
 .visually-hidden {
   position: absolute;
   overflow: hidden;
@@ -211,11 +211,11 @@ color: #fff;
 font-family:"Fira Sans Condensed", sans-serif;
 font-weight: 700;
 font-size: 18px;
+line-height: 100%;
+letter-spacing: 0;
 text-align: center;
 background-color: transparent;
 cursor: pointer;
-line-height: 100%;
-letter-spacing: 0;
 
 }
 .search-form__submit-button {
@@ -224,10 +224,10 @@ width: 194px;
 height: 34px;
 }
 .more-button {
+  flex-shrink: 0;
   width: 100%;
   height: 34px;
-  flex-shrink: 0;
- }
+}
 .button:hover {
   text-decoration: underline;
 }
